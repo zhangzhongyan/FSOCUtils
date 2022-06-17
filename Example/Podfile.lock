@@ -1,0 +1,20 @@
+PODS:
+  - FSOCUtils (1.0.0):
+    - FSOCUtils/CountDownUtils (= 1.0.0)
+  - FSOCUtils/CountDownUtils (1.0.0)
+  - FSOCUtils/EncyptUtils (1.0.0)
+
+DEPENDENCIES:
+  - FSOCUtils (from `../`)
+  - FSOCUtils/EncyptUtils (from `../`)
+
+EXTERNAL SOURCES:
+  FSOCUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSOCUtils: 91d21174a0b4c46b5ed90c1ecd41306e9077a938
+
+PODFILE CHECKSUM: cedfeebbc73a81aff885484c02802f3378df17f1
+
+COCOAPODS: 1.10.1
