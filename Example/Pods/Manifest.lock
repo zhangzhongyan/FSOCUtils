@@ -3,18 +3,27 @@ PODS:
     - FSOCUtils/CountDownUtils (= 1.0.0)
   - FSOCUtils/CountDownUtils (1.0.0)
   - FSOCUtils/EncyptUtils (1.0.0)
+  - FSOCUtils/JSONUtils (1.0.0):
+    - MJExtension
+  - MJExtension (3.4.1)
 
 DEPENDENCIES:
   - FSOCUtils (from `../`)
   - FSOCUtils/EncyptUtils (from `../`)
+  - FSOCUtils/JSONUtils (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MJExtension
 
 EXTERNAL SOURCES:
   FSOCUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSOCUtils: 91d21174a0b4c46b5ed90c1ecd41306e9077a938
+  FSOCUtils: 07d6716cd746256ec0e63557a5925d7e5edc4ec3
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
 
-PODFILE CHECKSUM: cedfeebbc73a81aff885484c02802f3378df17f1
+PODFILE CHECKSUM: c94522138dd40f03b90a6cceba7fa001e4498a3a
 
 COCOAPODS: 1.10.1

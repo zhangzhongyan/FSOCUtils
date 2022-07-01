@@ -28,6 +28,15 @@
     {
       "name": "EncyptUtils",
       "source_files": "FSOCUtils/Classes/EncyptUtils/*{h,m}"
+    },
+    {
+      "name": "JSONUtils",
+      "source_files": "FSOCUtils/Classes/JSONUtils/*{h,m}",
+      "dependencies": {
+        "MJExtension": [
+
+        ]
+      }
     }
   ]
 }

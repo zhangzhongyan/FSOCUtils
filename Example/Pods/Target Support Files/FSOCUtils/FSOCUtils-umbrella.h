@@ -12,6 +12,7 @@
 
 #import "FSCountDownUtils.h"
 #import "FSAESEncrypUtils.h"
+#import "NSObject+FSMJKeyValue.h"
 
 FOUNDATION_EXPORT double FSOCUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char FSOCUtilsVersionString[];

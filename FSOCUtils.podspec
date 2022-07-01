@@ -52,4 +52,10 @@ Pod::Spec.new do |s|
     ss.source_files = 'FSOCUtils/Classes/EncyptUtils/*{h,m}'
   end
   
+  # JSONUtils仓库
+  s.subspec 'JSONUtils' do |ss|
+    ss.source_files = 'FSOCUtils/Classes/JSONUtils/*{h,m}'
+    ss.dependency 'MJExtension'
+  end
+  
 end
