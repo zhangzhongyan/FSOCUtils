@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCUtils'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Object-c 工具基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   
   s.requires_arc = true
-  s.default_subspec = 'CountDownUtils'
+  s.default_subspec = 'SafeUtils'
   
   # CountDownUtils仓库
   s.subspec 'CountDownUtils' do |ss|
@@ -56,6 +56,11 @@ Pod::Spec.new do |s|
   s.subspec 'JSONUtils' do |ss|
     ss.source_files = 'FSOCUtils/Classes/JSONUtils/*{h,m}'
     ss.dependency 'MJExtension'
+  end
+  
+  # SafeUtils仓库
+  s.subspec 'SafeUtils' do |ss|
+    ss.source_files = 'FSOCUtils/Classes/SafeUtils/*{h,m}'
   end
   
 end

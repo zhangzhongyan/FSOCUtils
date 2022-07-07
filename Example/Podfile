@@ -6,6 +6,7 @@ target 'FSOCUtils_Example' do
   pod 'FSOCUtils', :path => '../'
   pod 'FSOCUtils/EncyptUtils', :path => '../'
   pod 'FSOCUtils/JSONUtils', :path => '../'
+  pod 'FSOCUtils/SafeUtils', :path => '../'
 
   target 'FSOCUtils_Tests' do
     inherit! :search_paths

@@ -9,6 +9,7 @@
 #import "FSViewController.h"
 #import <FSOCUtils/FSCountDownUtils.h>
 #import <FSOCUtils/FSAESEncrypUtils.h>
+#import <FSOCUtils/FSSafeUtils.h>
 
 @interface FSViewController ()
 
