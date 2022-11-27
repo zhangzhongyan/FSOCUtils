@@ -48,13 +48,13 @@
     dispatch_source_set_event_handler(self.timer, ^{
         __strong __typeof__(self) self = weakSelf;
         
-        self.currentCountDown--;
-        if (self.currentCountDown <= 0){ //倒计时结束，关闭
-            [self stopCountDown];
-        }
-        
         dispatch_async(dispatch_get_main_queue(), ^{
             __strong __typeof__(self) self = weakSelf;
+            
+            self.currentCountDown--;
+            if (self.currentCountDown <= 0){ //倒计时结束，关闭
+                [self stopCountDown];
+            }
 
             if (self.countDownChangeBlock) {
                 self.countDownChangeBlock(self.currentCountDown);
