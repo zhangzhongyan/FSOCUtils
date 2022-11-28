@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCUtils'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Object-c 工具基础组件'
 
 # This description is used to generate tags and improve search results.
