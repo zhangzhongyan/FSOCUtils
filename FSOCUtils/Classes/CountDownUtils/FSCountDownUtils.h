@@ -23,8 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 开始倒计时
 - (void)startCountDownWithCount:(NSUInteger)count;
 
-/// 停止倒计时
-- (void)stopCountDown;
+/// 重置倒计时
+- (void)resetCountDown;
 
 @end
 

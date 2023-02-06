@@ -27,6 +27,14 @@
     return timerShared;
 }
 
+#pragma mark - Private Methods
+
+- (void)stopCountDown {
+    if (self.timer) {
+        dispatch_source_cancel(self.timer);
+    }
+    self.timer = nil;
+}
 
 #pragma mark - Public Methods
 
@@ -48,6 +56,7 @@
     dispatch_source_set_event_handler(self.timer, ^{
         __strong __typeof__(self) self = weakSelf;
         
+        
         dispatch_async(dispatch_get_main_queue(), ^{
             __strong __typeof__(self) self = weakSelf;
             
@@ -65,11 +74,14 @@
     dispatch_resume(self.timer);
 }
 
-- (void)stopCountDown {
-    if (self.timer) {
-        dispatch_source_cancel(self.timer);
+- (void)resetCountDown
+{
+    self.currentCountDown = 0;
+    [self stopCountDown];
+    
+    if (self.countDownChangeBlock) {
+        self.countDownChangeBlock(0);
     }
-    self.timer = nil;
 }
 
 @end
