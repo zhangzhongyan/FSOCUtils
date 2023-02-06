@@ -9,6 +9,7 @@
 #import "FSViewController.h"
 #import <FSOCUtils/FSCountDownUtils.h>
 #import <FSOCUtils/FSAESEncrypUtils.h>
+#import <FSOCUtils/FSDESEncrypUtils.h>
 #import <FSOCUtils/FSSafeUtils.h>
 
 @interface FSViewController ()
@@ -29,6 +30,16 @@
     [[FSCountDownUtils share] startCountDownWithCount:60];
     
     [FSAESEncrypUtils encryptWithString:@"123" key:@"12345678901234567890123456789023"];
+    
+    NSString *orginTexg = @"11870469643066082825255382745106";
+    NSString *key = @"fulelianmishiyeyaoshangc";
+    NSString *encryText = [FSDESEncrypUtils encryptWithString:orginTexg key:key];
+    NSString *decryText = [FSDESEncrypUtils decryptWithString:encryText key:key];
+
+    NSLog(@"%@", encryText);
+    NSLog(@"%@", decryText);
+
+
     
 }
 

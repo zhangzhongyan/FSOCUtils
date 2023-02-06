@@ -12,6 +12,7 @@
 
 #import "FSCountDownUtils.h"
 #import "FSAESEncrypUtils.h"
+#import "FSDESEncrypUtils.h"
 #import "NSObject+FSMJKeyValue.h"
 #import "FSSafeUtils.h"
 #import "NSArray+FSSafe.h"

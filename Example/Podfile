@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'FSOCUtils_Example' do
   pod 'FSOCUtils', :path => '../'
+  pod 'FSOCUtils/CountDownUtils', :path => '../'
   pod 'FSOCUtils/EncyptUtils', :path => '../'
   pod 'FSOCUtils/JSONUtils', :path => '../'
   pod 'FSOCUtils/SafeUtils', :path => '../'
