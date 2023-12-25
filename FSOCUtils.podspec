@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCUtils'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Object-c 工具基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -61,6 +61,11 @@ Pod::Spec.new do |s|
   # SafeUtils仓库
   s.subspec 'SafeUtils' do |ss|
     ss.source_files = 'FSOCUtils/Classes/SafeUtils/*{h,m}'
+  end
+  
+  # SizeScalieUtils仓库
+  s.subspec 'SizeScalieUtils' do |ss|
+    ss.source_files = 'FSOCUtils/Classes/SizeScalieUtils/*{h,m}'
   end
   
 end

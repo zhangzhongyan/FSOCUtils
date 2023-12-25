@@ -6,6 +6,7 @@ PODS:
   - FSOCUtils/JSONUtils (1.0.3):
     - MJExtension
   - FSOCUtils/SafeUtils (1.0.3)
+  - FSOCUtils/SizeScalieUtils (1.0.3)
   - MJExtension (3.4.1)
 
 DEPENDENCIES:
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - FSOCUtils/EncyptUtils (from `../`)
   - FSOCUtils/JSONUtils (from `../`)
   - FSOCUtils/SafeUtils (from `../`)
+  - FSOCUtils/SizeScalieUtils (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -24,9 +26,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSOCUtils: 919d7c3d782c399351f02ea11f46548f8c2bed54
+  FSOCUtils: 0f7bd06060442d7b8e99e79250850b5781906b72
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
 
-PODFILE CHECKSUM: accf1f31fc0929e4260344c4d5070234ea1dc49d
+PODFILE CHECKSUM: 45731101e779bdc39d37340184766aa764d8c897
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1

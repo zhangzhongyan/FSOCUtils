@@ -20,6 +20,7 @@
 #import "NSMutableArray+FSSafe.h"
 #import "NSMutableDictionary+FSSafe.h"
 #import "NSString+FSSafe.h"
+#import "FSSizeScaleUtils.h"
 
 FOUNDATION_EXPORT double FSOCUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char FSOCUtilsVersionString[];

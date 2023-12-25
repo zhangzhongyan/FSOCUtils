@@ -41,6 +41,10 @@
     {
       "name": "SafeUtils",
       "source_files": "FSOCUtils/Classes/SafeUtils/*{h,m}"
+    },
+    {
+      "name": "SizeScalieUtils",
+      "source_files": "FSOCUtils/Classes/SizeScalieUtils/*{h,m}"
     }
   ]
 }

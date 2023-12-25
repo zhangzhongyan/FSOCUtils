@@ -11,6 +11,7 @@
 #import <FSOCUtils/FSAESEncrypUtils.h>
 #import <FSOCUtils/FSDESEncrypUtils.h>
 #import <FSOCUtils/FSSafeUtils.h>
+#import <FSOCUtils/FSSizeScaleUtils.h>
 
 @interface FSViewController ()
 
@@ -38,6 +39,8 @@
 
     NSLog(@"%@", encryText);
     NSLog(@"%@", decryText);
+    
+    CGFloat width = sizeCeilScaleX(30);
 
 
     
