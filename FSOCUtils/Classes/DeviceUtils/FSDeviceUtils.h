@@ -28,8 +28,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FSDeviceUtils : NSObject
 
-/// 设备ID
-+ (NSString *)deviceUUID;
+///// 设备ID
+//+ (NSString *)deviceUUID;
 
 /// iOS 3
 + (NSNumber *)getDeviceType;

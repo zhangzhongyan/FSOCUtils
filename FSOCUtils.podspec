@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSOCUtils'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Object-c 工具基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -71,7 +71,6 @@ Pod::Spec.new do |s|
   # DeviceUtils仓库
   s.subspec 'DeviceUtils' do |ss|
     ss.source_files = 'FSOCUtils/Classes/DeviceUtils/*{h,m}'
-    ss.dependency 'FCUUID', '~> 1.3.1'
   end
   
 end

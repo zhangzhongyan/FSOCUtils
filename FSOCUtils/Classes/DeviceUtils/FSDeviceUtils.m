@@ -7,15 +7,15 @@
 
 #import "FSDeviceUtils.h"
 //Helper
-#import "FCUUID.h"
+//#import "FCUUID.h"
 #import "sys/utsname.h"
 
 @implementation FSDeviceUtils
 
-+ (NSString *)deviceUUID
-{
-    return [FCUUID uuidForDevice];
-}
+//+ (NSString *)deviceUUID
+//{
+//    return [FCUUID uuidForDevice];
+//}
 
 + (NSNumber *)getDeviceType {
     return @(3);
