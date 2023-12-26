@@ -1,17 +1,23 @@
 PODS:
-  - FSOCUtils (1.0.3):
-    - FSOCUtils/SafeUtils (= 1.0.3)
-  - FSOCUtils/CountDownUtils (1.0.3)
-  - FSOCUtils/EncyptUtils (1.0.3)
-  - FSOCUtils/JSONUtils (1.0.3):
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - FSOCUtils (1.0.4):
+    - FSOCUtils/SafeUtils (= 1.0.4)
+  - FSOCUtils/CountDownUtils (1.0.4)
+  - FSOCUtils/DeviceUtils (1.0.4):
+    - FCUUID (~> 1.3.1)
+  - FSOCUtils/EncyptUtils (1.0.4)
+  - FSOCUtils/JSONUtils (1.0.4):
     - MJExtension
-  - FSOCUtils/SafeUtils (1.0.3)
-  - FSOCUtils/SizeScalieUtils (1.0.3)
+  - FSOCUtils/SafeUtils (1.0.4)
+  - FSOCUtils/SizeScalieUtils (1.0.4)
   - MJExtension (3.4.1)
+  - UICKeyChainStore (2.1.2)
 
 DEPENDENCIES:
   - FSOCUtils (from `../`)
   - FSOCUtils/CountDownUtils (from `../`)
+  - FSOCUtils/DeviceUtils (from `../`)
   - FSOCUtils/EncyptUtils (from `../`)
   - FSOCUtils/JSONUtils (from `../`)
   - FSOCUtils/SafeUtils (from `../`)
@@ -19,16 +25,20 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - FCUUID
     - MJExtension
+    - UICKeyChainStore
 
 EXTERNAL SOURCES:
   FSOCUtils:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSOCUtils: 0f7bd06060442d7b8e99e79250850b5781906b72
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  FSOCUtils: 2a1a7d5107c1dfd36776ed377cb90adf674fafa7
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
 
-PODFILE CHECKSUM: 45731101e779bdc39d37340184766aa764d8c897
+PODFILE CHECKSUM: 3867ced68d45e22fda7a4eb0df015610e145b4db
 
 COCOAPODS: 1.12.1

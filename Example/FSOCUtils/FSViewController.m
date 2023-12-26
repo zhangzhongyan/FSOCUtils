@@ -23,7 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+        
     FSCountDownUtils.share.countDownChangeBlock = ^(NSUInteger countDown) {
         NSLog(@"%ld", countDown);
     };

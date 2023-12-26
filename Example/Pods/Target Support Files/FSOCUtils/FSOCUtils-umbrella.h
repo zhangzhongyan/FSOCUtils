@@ -11,6 +11,7 @@
 #endif
 
 #import "FSCountDownUtils.h"
+#import "FSDeviceUtils.h"
 #import "FSAESEncrypUtils.h"
 #import "FSDESEncrypUtils.h"
 #import "NSObject+FSMJKeyValue.h"
